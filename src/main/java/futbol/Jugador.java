@@ -21,7 +21,6 @@ public class Jugador extends Futbolista{
 		return ("El futbolista " + this.getNombre() + " tiene " + this.getEdad() + ", yjuega de " + this.getPosicion() + " con el dorsal " + this.dorsal + ". Ha marcado " + this.golesMarcados );
 	}
 
-	@Override
 	public int compareTo(Futbolista o) {
 		int x;
 		if (this.getEdad()< o.getEdad()) {
@@ -35,6 +34,12 @@ public class Jugador extends Futbolista{
 	@Override
 	public boolean jugarConLasManos() {
 		return false;
+	}
+
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	

@@ -35,8 +35,13 @@ public class Portero extends Futbolista{
 		return true;
 	}
 
-	@Override
 	public int compareTo(Futbolista o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int compareTo(Object o) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
